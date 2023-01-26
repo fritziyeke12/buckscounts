@@ -12,4 +12,54 @@
   font-family: sans-serif;
 }
 
-/* your code */
+body{
+  background-color: #1e3932;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 1.5rem;
+}
+
+header h1.title{
+  color: #f2f0eb;
+}
+
+box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  background-color: #f2f0eb;
+}
+
+.city-list{
+  display: flex;
+  flex-direction: column;
+  border: solid #d4e9e2;
+  justify-content: space-evenly;  
+  text-align: right;
+}
+
+.header, .city-list{
+  padding: 12px;
+  border-radius: 0.3em;
+}
+
+.city-item{
+  background-color: #00754a;
+  margin: 0.5rem 0.5rem;
+  padding: 5px;
+}
